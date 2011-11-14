@@ -2,12 +2,12 @@ I like monochrome icons in my status bar and the FDEMC icon was not cutting it. 
 
 1. Download fdemc_icons.zip and upzip.
 
-2. From Terminal, execute (each command should one line):
+2. From Terminal, execute (each command should be on one line):
 
-$ sudo cp /usr/local/ppc-3.2.0-190/bin/FDEStatusMenu.app/Contents/Resources/FDEEndpoint.png \
-  /usr/local/ppc-3.2.0-190/bin/FDEStatusMenu.app/Contents/Resources/FDEEndpoint-orig.png
+   $ sudo cp /usr/local/ppc-3.2.0-190/bin/FDEStatusMenu.app/Contents/Resources/FDEEndpoint.png \
+     /usr/local/ppc-3.2.0-190/bin/FDEStatusMenu.app/Contents/Resources/FDEEndpoint-orig.png
 
-$ sudo cp FDEEndpoint-custom.png \
-  /usr/local/ppc-3.2.0-190/bin/FDEStatusMenu.app/Contents/Resources/FDEEndpoint.png
+   $ sudo cp FDEEndpoint-custom.png \
+     /usr/local/ppc-3.2.0-190/bin/FDEStatusMenu.app/Contents/Resources/FDEEndpoint.png
 
 3. Re-login
