@@ -1,13 +1,25 @@
-I like monochrome icons in my status bar and the FDEMC icon was not cutting it. I made a replacement. These instructions worked for MacOS X Snow Leopard and *may* work for Lion (untested):
+I like monochrome icons in my status bar and the FDEMC icon was not cutting it. I made a replacement.
+
+To install:
 
 1. Download fdemc_icons.zip and upzip.
 
 2. From Terminal, execute (each command should be on one line):
+
+   MacOS X 10.6 (Snow Leopard)
 
    $ sudo cp /usr/local/ppc-3.2.0-190/bin/FDEStatusMenu.app/Contents/Resources/FDEEndpoint.png \
      /usr/local/ppc-3.2.0-190/bin/FDEStatusMenu.app/Contents/Resources/FDEEndpoint-orig.png
 
    $ sudo cp FDEEndpoint-custom.png \
      /usr/local/ppc-3.2.0-190/bin/FDEStatusMenu.app/Contents/Resources/FDEEndpoint.png
+
+   MacOS X 10.7 (Lion)
+
+   $ sudo cp /usr/local/ppc-3.3.4-224/bin/FDEStatusMenu.app/Contents/Resources/FDEEndpoint.png \
+     /usr/local/ppc-3.3.4-224/bin/FDEStatusMenu.app/Contents/Resources/FDEEndpoint-original.png
+
+   $ sudo cp FDEEndpoint-custom.png \
+     /usr/local/ppc-3.3.4-224/bin/FDEStatusMenu.app/Contents/Resources/FDEEndpoint.png
 
 3. Re-login
